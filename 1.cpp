@@ -14,6 +14,10 @@ auto inputHandler();
 void printmenu();
 
 //Draw functions WIP
+void drawHorizontalLine(int length, char ch);
+void drawVerticalLine(int height, char ch);
+void drawSquare(int size, char ch);
+void drawRectangle(int height, int length, char ch);
 
 #pragma endregion template
 
@@ -55,7 +59,6 @@ auto inputHandler()
 void printmenu()
 {
     cout << "Hello World, this is a menu!" << endl;
-    cout << "\n Draw a horizontal line";
     cout << "1) Draw a horizontal line";
     cout << "\n2) Draw a vertical line";
     cout << "\n3) Draw a square";
